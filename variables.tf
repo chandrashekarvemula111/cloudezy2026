@@ -9,8 +9,10 @@ variable "location" {
     description = "used to define project location"
 
 }
+/*
 variable "bucket_name" {
     type = string
     description = "gcs bucket for remote backend"
 }
+*/
 
