@@ -1,3 +1,3 @@
 module "gce-intance-prod" {
-    source = "terraform/modules/gce_instance"
+    source = "git::https://github.com/chandrashekarvemula111/cloudezy2026.git?ref=main"
 }
