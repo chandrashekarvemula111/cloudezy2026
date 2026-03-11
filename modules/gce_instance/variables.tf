@@ -4,7 +4,7 @@ variable "gce_name" {
 }
 variable "instance-type" {
     type = string
-    default = "t3.micro"
+    default = "e2-micro"
     description = "to specify instance type"
 }
 variable "lables" {

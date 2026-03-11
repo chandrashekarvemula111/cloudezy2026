@@ -2,7 +2,7 @@ terraform {
   required_providers {
     google = {
       source = "hashicorp/google"
-      version = "7.x.x" # Specify a version constraint
+      version = "6.0.0" # Specify a version constraint
     }
   }
 }

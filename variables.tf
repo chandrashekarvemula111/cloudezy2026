@@ -11,9 +11,6 @@ variable "location" {
 }
 variable "bucket_name" {
     type = string
-    default = "cloudezy-bucket"
     description = "gcs bucket for remote backend"
 }
-variable "environment" {
-    type = string
-}
+
