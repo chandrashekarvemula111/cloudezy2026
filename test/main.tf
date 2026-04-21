@@ -6,7 +6,7 @@ resource "google_service_account" "default" {
 resource "google_compute_instance" "instance" {
   name             = var.gce_name
   zone             = "us-central1-a"
-  machine_type     = var.instance-type
+  machine_type     = var.instance_type
 
   boot_disk {
     initialize_params {
