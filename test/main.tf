@@ -1,5 +1,5 @@
 resource "google_service_account" "default" {
-  account_id   = data.terraform_sa
+  account_id   = data.google_service_account.terraform_sa
   display_name = "Custom SA for VM Instance"
 }
 

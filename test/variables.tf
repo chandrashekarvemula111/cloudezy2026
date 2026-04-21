@@ -34,8 +34,9 @@ variable "backend_bucket" {
   type        = string
   description = "GCS bucket for terraform state"
 }
-*/
+
 variable "private_ip" {
   type        = string
   description = "to print private IP of instance"
 }
+*/
