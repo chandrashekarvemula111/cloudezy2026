@@ -1,4 +1,4 @@
-variable "project_name" {
+variable "project_id" {
   type        = string
   default     = "gcbdr-gl-2"
   description = "used to define project name"
